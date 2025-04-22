@@ -1,18 +1,19 @@
 ﻿body {
-    /* Other body styles */
-    text-align: center; /* To center inline and inline-block elements */
+    text-align: center; /* For older inline elements and to set a default */
 }
 
 h1 {
-    /* Your heading styles */
-    display: inline-block; /* Allows margin properties but keeps it sized to content */
-}
-
-iframe {
-    display: block; /* To put it on its own line */
-    margin: 20px auto; /* Centers the iframe horizontally */
+    /* Keep your existing h1 styles, and if you want it centered, it will be due to the body's text-align */
+    /* Example: */
+    font-family: Arial, sans-serif;
+    color: darkgreen;
 }
 
 p {
     text-align: center; /* Center the paragraph text */
+}
+
+iframe {
+    display: block; /* Make it a block-level element */
+    margin: 20px auto; /* Set left and right margins to auto to center it horizontally */
 }
