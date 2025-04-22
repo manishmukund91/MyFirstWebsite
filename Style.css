@@ -1,8 +1,18 @@
 ﻿body {
-    background-color: lightblue; /* This will make the background light blue */
+    /* Other body styles */
+    text-align: center; /* To center inline and inline-block elements */
 }
 
 h1 {
-    font-family: Arial, sans-serif; /* This will change the font of your heading */
-    color: darkgreen; /* This will make the heading text dark green */
+    /* Your heading styles */
+    display: inline-block; /* Allows margin properties but keeps it sized to content */
+}
+
+iframe {
+    display: block; /* To put it on its own line */
+    margin: 20px auto; /* Centers the iframe horizontally */
+}
+
+p {
+    text-align: center; /* Center the paragraph text */
 }
