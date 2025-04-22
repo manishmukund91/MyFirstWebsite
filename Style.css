@@ -1,0 +1,8 @@
+﻿body {
+    background-color: lightblue; /* This will make the background light blue */
+}
+
+h1 {
+    font-family: Arial, sans-serif; /* This will change the font of your heading */
+    color: darkgreen; /* This will make the heading text dark green */
+}
