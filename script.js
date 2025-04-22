@@ -1,7 +1,10 @@
 ﻿const heading = document.querySelector('h1'); // Get the heading element
 
-let position = 0;
+let position = -heading.offsetWidth; // Start from just off the left of the screen
 const speed = 2; // How fast the heading moves
+
+// Set the initial marginLeft to start it off-screen to the left
+heading.style.marginLeft = position + 'px';
 
 function animateHeading() {
     position += speed;
